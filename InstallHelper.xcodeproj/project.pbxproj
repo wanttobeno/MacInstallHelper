@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049BD7A215F869C3001C9893 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049BD7A115F869C3001C9893 /* Cocoa.framework */; };
+		049BD7AC15F869C3001C9893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 049BD7AA15F869C3001C9893 /* InfoPlist.strings */; };
+		049BD7AE15F869C3001C9893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BD7AD15F869C3001C9893 /* main.m */; };
+		049BD7B215F869C3001C9893 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 049BD7B015F869C3001C9893 /* Credits.rtf */; };
+		049BD7B515F869C3001C9893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BD7B415F869C3001C9893 /* AppDelegate.m */; };
+		049BD7B815F869C3001C9893 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049BD7B615F869C3001C9893 /* MainMenu.xib */; };
+		049BD7C015F869F4001C9893 /* McInstallHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 049BD7BF15F869F4001C9893 /* McInstallHelper.m */; };
+		04F61EAB15F8E9EE0078F680 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F61EAA15F8E9EE0078F680 /* STPrivilegedTask.m */; };
+		04F61EAE15F8EA770078F680 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F61EAD15F8EA770078F680 /* Security.framework */; };
+		04F61ECD15F9B9980078F680 /* McAttachDiskImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F61ECC15F9B9980078F680 /* McAttachDiskImage.m */; };
+		04F61ECF15F9BB7F0078F680 /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F61ECE15F9BB7F0078F680 /* SecurityFoundation.framework */; };
+		04F61EE615F9D1320078F680 /* THDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F61EE515F9D1320078F680 /* THDragView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049BD79D15F869C3001C9893 /* InstallHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstallHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BD7A115F869C3001C9893 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		049BD7A415F869C3001C9893 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		049BD7A515F869C3001C9893 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		049BD7A615F869C3001C9893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		049BD7A915F869C3001C9893 /* InstallHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstallHelper-Info.plist"; sourceTree = "<group>"; };
+		049BD7AB15F869C3001C9893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		049BD7AD15F869C3001C9893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049BD7AF15F869C3001C9893 /* InstallHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstallHelper-Prefix.pch"; sourceTree = "<group>"; };
+		049BD7B115F869C3001C9893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		049BD7B315F869C3001C9893 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049BD7B415F869C3001C9893 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049BD7B715F869C3001C9893 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		049BD7BE15F869F4001C9893 /* McInstallHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McInstallHelper.h; sourceTree = "<group>"; };
+		049BD7BF15F869F4001C9893 /* McInstallHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McInstallHelper.m; sourceTree = "<group>"; };
+		04F61EA915F8E9EE0078F680 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		04F61EAA15F8E9EE0078F680 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
+		04F61EAD15F8EA770078F680 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04F61EB715F99CEE0078F680 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = System/Library/Frameworks/DiskArbitration.framework; sourceTree = SDKROOT; };
+		04F61ECB15F9B9980078F680 /* McAttachDiskImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McAttachDiskImage.h; sourceTree = "<group>"; };
+		04F61ECC15F9B9980078F680 /* McAttachDiskImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McAttachDiskImage.m; sourceTree = "<group>"; };
+		04F61ECE15F9BB7F0078F680 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
+		04F61EE415F9D1320078F680 /* THDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDragView.h; sourceTree = "<group>"; };
+		04F61EE515F9D1320078F680 /* THDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDragView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049BD79A15F869C3001C9893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F61ECF15F9BB7F0078F680 /* SecurityFoundation.framework in Frameworks */,
+				04F61EAE15F8EA770078F680 /* Security.framework in Frameworks */,
+				049BD7A215F869C3001C9893 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049BD79215F869C2001C9893 = {
+			isa = PBXGroup;
+			children = (
+				049BD7A715F869C3001C9893 /* InstallHelper */,
+				049BD7A015F869C3001C9893 /* Frameworks */,
+				049BD79E15F869C3001C9893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049BD79E15F869C3001C9893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049BD79D15F869C3001C9893 /* InstallHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049BD7A015F869C3001C9893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F61ECE15F9BB7F0078F680 /* SecurityFoundation.framework */,
+				04F61EB715F99CEE0078F680 /* DiskArbitration.framework */,
+				04F61EAD15F8EA770078F680 /* Security.framework */,
+				049BD7A115F869C3001C9893 /* Cocoa.framework */,
+				049BD7A315F869C3001C9893 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		049BD7A315F869C3001C9893 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049BD7A415F869C3001C9893 /* AppKit.framework */,
+				049BD7A515F869C3001C9893 /* CoreData.framework */,
+				049BD7A615F869C3001C9893 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		049BD7A715F869C3001C9893 /* InstallHelper */ = {
+			isa = PBXGroup;
+			children = (
+				04F61EE415F9D1320078F680 /* THDragView.h */,
+				04F61EE515F9D1320078F680 /* THDragView.m */,
+				04F61EA915F8E9EE0078F680 /* STPrivilegedTask.h */,
+				04F61EAA15F8E9EE0078F680 /* STPrivilegedTask.m */,
+				04F61ECB15F9B9980078F680 /* McAttachDiskImage.h */,
+				04F61ECC15F9B9980078F680 /* McAttachDiskImage.m */,
+				049BD7BE15F869F4001C9893 /* McInstallHelper.h */,
+				049BD7BF15F869F4001C9893 /* McInstallHelper.m */,
+				049BD7B315F869C3001C9893 /* AppDelegate.h */,
+				049BD7B415F869C3001C9893 /* AppDelegate.m */,
+				049BD7B615F869C3001C9893 /* MainMenu.xib */,
+				049BD7A815F869C3001C9893 /* Supporting Files */,
+			);
+			path = InstallHelper;
+			sourceTree = "<group>";
+		};
+		049BD7A815F869C3001C9893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049BD7A915F869C3001C9893 /* InstallHelper-Info.plist */,
+				049BD7AA15F869C3001C9893 /* InfoPlist.strings */,
+				049BD7AD15F869C3001C9893 /* main.m */,
+				049BD7AF15F869C3001C9893 /* InstallHelper-Prefix.pch */,
+				049BD7B015F869C3001C9893 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049BD79C15F869C3001C9893 /* InstallHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BD7BB15F869C3001C9893 /* Build configuration list for PBXNativeTarget "InstallHelper" */;
+			buildPhases = (
+				049BD79915F869C3001C9893 /* Sources */,
+				049BD79A15F869C3001C9893 /* Frameworks */,
+				049BD79B15F869C3001C9893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstallHelper;
+			productName = InstallHelper;
+			productReference = 049BD79D15F869C3001C9893 /* InstallHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049BD79415F869C2001C9893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = www.tanhao.me;
+			};
+			buildConfigurationList = 049BD79715F869C2001C9893 /* Build configuration list for PBXProject "InstallHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 049BD79215F869C2001C9893;
+			productRefGroup = 049BD79E15F869C3001C9893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049BD79C15F869C3001C9893 /* InstallHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049BD79B15F869C3001C9893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD7AC15F869C3001C9893 /* InfoPlist.strings in Resources */,
+				049BD7B215F869C3001C9893 /* Credits.rtf in Resources */,
+				049BD7B815F869C3001C9893 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049BD79915F869C3001C9893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD7AE15F869C3001C9893 /* main.m in Sources */,
+				049BD7B515F869C3001C9893 /* AppDelegate.m in Sources */,
+				049BD7C015F869F4001C9893 /* McInstallHelper.m in Sources */,
+				04F61EAB15F8E9EE0078F680 /* STPrivilegedTask.m in Sources */,
+				04F61ECD15F9B9980078F680 /* McAttachDiskImage.m in Sources */,
+				04F61EE615F9D1320078F680 /* THDragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049BD7AA15F869C3001C9893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BD7AB15F869C3001C9893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		049BD7B015F869C3001C9893 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BD7B115F869C3001C9893 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		049BD7B615F869C3001C9893 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BD7B715F869C3001C9893 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049BD7B915F869C3001C9893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		049BD7BA15F869C3001C9893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		049BD7BC15F869C3001C9893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstallHelper/InstallHelper-Prefix.pch";
+				INFOPLIST_FILE = "InstallHelper/InstallHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		049BD7BD15F869C3001C9893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstallHelper/InstallHelper-Prefix.pch";
+				INFOPLIST_FILE = "InstallHelper/InstallHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049BD79715F869C2001C9893 /* Build configuration list for PBXProject "InstallHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD7B915F869C3001C9893 /* Debug */,
+				049BD7BA15F869C3001C9893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BD7BB15F869C3001C9893 /* Build configuration list for PBXNativeTarget "InstallHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD7BC15F869C3001C9893 /* Debug */,
+				049BD7BD15F869C3001C9893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049BD79415F869C2001C9893 /* Project object */;
+}
